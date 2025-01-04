@@ -1,0 +1,36 @@
+:root {
+  /* Primary Colors - Blue */
+  --primary-100: #60a5fa;
+  --primary-200: #3b82f6;
+  --primary-300: #2563eb;
+  
+  /* Background Colors - White */
+  --bg-light: #ffffff;
+  --bg-off-white: #f8fafc;
+  --bg-blue-50: #eff6ff;
+  
+  /* Text Colors */
+  --text-dark: #1e293b;
+  --text-muted: #64748b;
+  --text-light: #ffffff;
+  
+  /* Accent Colors - Blue Shades */
+  --accent-100: #93c5fd;
+  --accent-200: #60a5fa;
+  --accent-300: #3b82f6;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #60a5fa, #2563eb);
+  --gradient-light: linear-gradient(135deg, #ffffff, #f1f5f9);
+  --gradient-bg: linear-gradient(135deg, #f8fafc, #eff6ff);
+  
+  /* Glass Effects */
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(59, 130, 246, 0.1);
+  --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  
+  /* Animations */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}

@@ -1,0 +1,46 @@
+@import '../theme.css';
+
+.video-container {
+  position: relative;
+  margin: 20px auto;
+  width: 640px;
+  height: 480px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--glass-shadow);
+  border: 1px solid var(--glass-border);
+  display: none;
+  transform: perspective(1000px) rotateX(5deg);
+  transition: var(--transition-normal);
+}
+
+.video-container:hover {
+  transform: perspective(1000px) rotateX(0);
+}
+
+.video-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-primary);
+  z-index: 10;
+}
+
+video {
+  position: absolute;
+  width: 640px;
+  height: 480px;
+  object-fit: cover;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  border-radius: 20px;
+}

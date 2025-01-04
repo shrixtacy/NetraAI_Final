@@ -1,0 +1,8 @@
+@import './base.css';
+@import './components/navbar.css';
+@import './components/buttons.css';
+@import './components/video.css';
+@import './components/stats.css';
+@import './components/footer.css';
+
+/* Add any additional global styles here */

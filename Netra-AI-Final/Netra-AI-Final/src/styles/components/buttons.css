@@ -1,0 +1,42 @@
+@import '../theme.css';
+
+.camera-toggle-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  margin: 2rem 0;
+  background: var(--primary-200);
+  color: var(--text-light);
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-normal);
+  box-shadow: var(--glass-shadow);
+}
+
+.camera-toggle-btn:hover {
+  background: var(--primary-300);
+  transform: translateY(-2px);
+}
+
+.camera-toggle-btn.active {
+  background: var(--accent-300);
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: var(--primary-200);
+  color: var(--text-light);
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: var(--transition-normal);
+  box-shadow: var(--glass-shadow);
+}
+
+.cta-button:hover {
+  background: var(--primary-300);
+  transform: translateY(-2px);
+}
